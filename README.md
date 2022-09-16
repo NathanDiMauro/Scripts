@@ -1,6 +1,14 @@
 # Nate's Usefull Scripts 
 This repo is a collection of usefull scripts I have written when the need arose
 
+### How to Use
+1. Clone the repo
+   * `git clone https://github.com/NathanDiMauro/Scripts.git`
+2. Add execute permission to the script 
+   * `chmod +x SCRIPT_NAME`
+3. Run script
+   * `./SCRIPT_NAME`
+
 ## Main2Master
 This script changes the default branch name of a git repo from main to master. This is usefull for an older codebase that still uses the legacy term master for their default branch name. This script is intended to be used with a git repo managed by github and therefore involves the extra step of swaping the default branch in the github ui. This step involves naviagting to the settings tab of a github repo which can be easily done by clicking the link provided when running the script. 
 
